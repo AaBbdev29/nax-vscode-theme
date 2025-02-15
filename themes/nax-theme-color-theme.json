@@ -132,7 +132,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#c8d500"
       }
     },
     {
@@ -146,7 +146,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#FF69B4"
+        "foreground": "#ca9c0b"
       }
     },
     {
@@ -177,7 +177,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#F4C430"
+        "foreground": "#0cddaa"
       }
     },
     {
@@ -193,7 +193,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#F4C430"
+        "foreground": "#0cddaa"
       }
     },
     {
@@ -217,6 +217,7 @@
         "foreground": "#B2CCD6"
       }
     },
+  
     {
       "name": "Sub-methods",
       "scope": [
@@ -224,8 +225,16 @@
         "variable.import.parameter.js",
         "variable.other.class.js"
       ],
+      
       "settings": {
         "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "js/ts variable.other.constant",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#ca9c0b"
       }
     },
     {
@@ -269,14 +278,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#F4C430"
+        "foreground": "#0cddaa"
       }
     },
     {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#F4C430"
+        "foreground": "#0cddaa"
       }
     },
     {
@@ -364,7 +373,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F4C430"
+        "foreground": "#0cddaa"
       }
     },
     {
@@ -538,7 +547,7 @@
       "name": "Markdown - Link Anchor",
       "scope": ["constant.other.reference.link.markdown"],
       "settings": {
-        "foreground": "#F4C430"
+        "foreground": "#0cddaa"
       }
     },
     {
